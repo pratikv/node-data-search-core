@@ -116,10 +116,6 @@ export class QueryParser {
     }
 }
 
-interface IQueryParserResult {
-
-}
-
 (function initQueryParserStaticRegex() {
     QueryParser.tokenMap = new Map<string, Number>();
     var tokenList = EnumEx.getNames(Token);
