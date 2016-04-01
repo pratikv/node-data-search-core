@@ -1,5 +1,9 @@
 /// <reference path="../typings/tsd.d.ts" />
 
+import {QueryTree} from "../src/QueryTree";
+import {AndQueryTerm, OrQueryTerm, FieldQueryTerm } from "../src/QueryTerm";
+import {Operation, Token} from "../src/interfaces";
+
 describe("Query Tree :", () => {
     var tree: QueryTree;
     beforeEach(() => {

@@ -1,5 +1,8 @@
 /// <reference path="../typings/tsd.d.ts" />
 
+import {QueryParser} from "../src/QueryParser";
+import {Token, Operation, IQueryTerm} from "../src/interfaces";
+
 describe('Query Parser : ', () => {
     var parser: QueryParser;
 
