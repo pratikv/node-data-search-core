@@ -1,5 +1,5 @@
 "use strict";
-class EnumEx {
+export class EnumEx {
     static getNames(e: any) {
         return Object.keys(e).filter(v => isNaN(parseInt(v, 10)));
     }

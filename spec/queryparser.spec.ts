@@ -2,6 +2,7 @@
 
 import {QueryParser} from "../src/QueryParser";
 import {Token, Operation, IQueryTerm} from "../src/interfaces";
+import {EnumEx} from "../src/helper";
 
 describe('Query Parser : ', () => {
     var parser: QueryParser;

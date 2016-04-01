@@ -3,6 +3,7 @@
 import {IQueryTree, Token} from  "./interfaces";
 import {FieldQueryTerm, AndQueryTerm, OrQueryTerm} from "./QueryTerm";
 import {QueryTree} from "./QueryTree";
+import {EnumEx} from "./helper";
 
 export class QueryParser {
 
